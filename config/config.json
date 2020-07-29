@@ -1,0 +1,28 @@
+{
+    "development": {
+        "config_id": "development",
+        "source_network":"",
+        "target_network":"",
+
+        "coldstorage_address":"",
+        
+        "publickey_with_coins_on_target_network":"",
+        "privatekey_with_coins_on_target_network":"",
+        
+        "token_contract_on_source_network":"",
+        "required_blk_confirmations":7,
+        "blk_confirmation_sleep_time":10
+    },
+    "testing": {
+        "config_id": "testing",
+        "database": "app-db-test"
+    },
+    "staging": {
+        "config_id": "staging"
+
+    },
+    "production": {
+        "config_id": "production"
+
+    }
+}
